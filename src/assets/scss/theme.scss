@@ -1,0 +1,33 @@
+$theme-color: #FFFFFF;
+$sider-bg: #2B3158;
+$sider-text-color: #FFFFFF;
+$log-bg: #5D80F0;
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.el-pagination.is-background .el-pager li.active {
+    background: #5D80F0;
+}
+
+.el-table td,
+.el-table th {
+    padding: 0px;
+}
+
+.el-table thead tr {
+    background-color: #f0f0f0;
+    height: 40px;
+    th {
+        .cell {
+            color: #333333;
+            font-weight: 600;
+            line-height: 40px;
+        }
+    }
+}
