@@ -18,7 +18,8 @@
     $block-height:35px;
     .block-container{
         position: relative;
-        width:100%;
+        // width:100%;
+        padding:20px 20px 50px 20px;
         border-top:1px solid #254665;
         border-left:1px solid #254665;
         .block-tag{
@@ -28,6 +29,7 @@
             height:$block-height;
             width:180px;
             background: #254665;
+            background-image: linear-gradient(60deg, transparent 82%, white 82%, white 83%, #254665 83%, #254665 85%, white 85%, white 86%, #254665 86%, #254665 90%, white 90%,white 100%);
             .block-title{
                 color:white;
                 height:$block-height;

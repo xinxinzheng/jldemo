@@ -2,25 +2,25 @@
      <div id="app" class="app">
         <jl-header></jl-header>
         <div class="content">
-            <jl-block title="基本信息">
-                <el-row>
-                    <el-col :span="20">
-                        <p class="my-name"></p>
-                        <p class="my-desc"></p>
-                    </el-col>
-                    <el-col :span="4">
-                        <div class="grid-content ">
-                            
-                        </div>
-                    </el-col>
-                </el-row>
-            </jl-block>
+            <basic-info></basic-info>
+            <job-defi></job-defi>
+            <education></education>
+            <work-back></work-back>
+            <technology></technology>
+            <like></like>
+            <my-comment></my-comment>
         </div>
     </div>
 </template>
 <script>
     import jlHeader from './components/header'
-    import jlBlock from './components/block'
+    import basicInfo from './components/basicinfo'
+    import jobDefi from './components/jobdefi'
+    import education from './components/education'
+    import workBack from './components/workback'
+    import technology from './components/technology'
+    import like from './components/like'
+    import myComment from './components/like'
     export default {
         name: 'app',
         mounted(){
@@ -28,14 +28,20 @@
         },
         components:{
            jlHeader,
-           jlBlock
+           basicInfo,
+           jobDefi,
+           education,
+           workBack,
+           technology,
+           like,
+           myComment
         }
     }
 </script>
 <style lang="scss" scoped>
     #app {
         width:900px;
-        height: 100%;
+        // height: 100%;
         background: white;
         border-radius:3px;
         box-shadow: 0px 0px 5px 0px rgba(0,0,0,.3);
@@ -46,6 +52,7 @@
         color: #2c3e50;
         .content{
             padding:48px 40px 40px 60px;
+            
         }
     }
 </style>
