@@ -23,8 +23,9 @@
         width:900px;
         height: 100%;
         background: white;
+        border-radius:3px;
         box-shadow: 0px 0px 5px 0px rgba(0,0,0,.3);
-        margin:auto;
+        margin:20px auto;
         font-family: 'Apple Lihei','Microsoft Yahei','Avenir', Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
