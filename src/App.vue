@@ -3,9 +3,10 @@
         <jl-header></jl-header>
         <div class="content">
             <jl-block title="基本信息">
-                <el-row class="h-top">
+                <el-row>
                     <el-col :span="20">
-                        
+                        <p class="my-name"></p>
+                        <p class="my-desc"></p>
                     </el-col>
                     <el-col :span="4">
                         <div class="grid-content ">
