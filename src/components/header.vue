@@ -28,6 +28,7 @@
             height:$head-height - 25px;
             line-height: $head-height;
             .top-title{
+                padding-left:40px;
                 font-size:40px;
                 color:#264562;
                 font-weight: 600;
@@ -37,10 +38,17 @@
         .h-bottom{
             height:25px;
             line-height: 25px;
+            position: relative;
             .bottom-left{
                 height:25px;
                 line-height: 25px;
-                background:#254665 center / 25px 25px,red center / 25px 25px;
+                background:#254665 center / 25px 25px;
+            }
+            .bottom-right{
+                height:20px;
+                line-height: 20px;
+                bottom:0px;
+                background:#c29f67 center / 20px 20px;   
             }
         }
     }
