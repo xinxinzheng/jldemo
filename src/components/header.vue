@@ -2,12 +2,12 @@
     <div class="header-container">
         <el-row class="h-top">
             <el-col :span="6">
-                <p class="top-title">个人简历</p>
+                <p class="top-title">哈哈哈哈</p>
             </el-col>
             <el-col :span="18">
                 <div class="flex-column right-t">
-                    <p class="right-title">细心从每个小细节开始</p>
-                    <p class="right-title">Personal resume</p>
+                    <p class="right-title">细心从每个小细节开始。</p>
+                    <p class="right-eng">Personal resume</p>
                 </div>
             </el-col>
         </el-row>
@@ -42,21 +42,31 @@
                 &:after{
                     content:'';
                     position: absolute;
-                    right:0px;
+                    right:10px;
                     top:50%;
                     transform: translateY(-50%);
                     width:0px;
-                    height:30px;
+                    height:40px;
                     border:1px solid #264562;
                 }
             }
             .right-t{
                 margin-top:30px;
-                padding-left:15px;
+                padding-left:5px;
+                color:#254763;
+                font-weight: 600;
                 .right-title{
                     height:30px;
                     line-height: 30px;
+                    font-weight: 600;
                 }   
+                .right-eng{
+                    height:40px;
+                    font-weight: 600;
+                    line-height: 40px;
+                    font-size:24px;
+                    margin-top: -8px;
+                }
             }
         }
         .h-bottom{

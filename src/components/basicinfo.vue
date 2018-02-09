@@ -9,7 +9,7 @@
                     <el-col class="item" :span="14">所在城市：北京</el-col>
                 </el-row>
                 <el-row>
-                    <el-col class="item" :span="10">手机号码：15510167150</el-col>
+                    <el-col class="item" :span="10">手机号码：155-1016-7150</el-col>
                     <el-col class="item" :span="14">邮箱地址：zhengxinxin1990@163.com</el-col>
                 </el-row>
             </el-col>
