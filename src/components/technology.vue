@@ -10,27 +10,27 @@
                     </li>
                     <li>
                         <el-row>
-                            <el-col class="item" :span="24">熟练掌握前端基本技术 JavaScript (Es5 , Es6)，Html5 ，CSS3 的使用 。</el-col>
+                            <el-col class="item" :span="24">熟练掌握前端基本技术 JavaScript (Es5 , Es6)，Html5 ，CSS3 ， NodeJs 的使用 。</el-col>
                         </el-row>
                     </li>
                     <li>
                         <el-row >
-                            <el-col class="item" :span="24">熟练掌握Vue , AngularJs , ReactJs , jQuery、Bootstrap、ReactJs、Require.js ThinkPHP框架的使用</el-col>
+                            <el-col class="item" :span="24">熟练掌握 Vue , AngularJs , ReactJs , Angular4 框架的使用 。 熟悉 Webpack , Grunt ，Git 工具的使用</el-col>
                         </el-row>
                     </li>
                     <li>
                         <el-row>
-                            <el-col class="item" :span="24">熟悉PHP，JavaScript，熟悉Ajax技术，熟悉MYSQL，HTML，CSS，熟悉Linux基本命令，HTML5，Git，了解ThinkJs，NodeJs</el-col>
+                            <el-col class="item" :span="24">熟悉 SVG , Canvas 的使用 ，熟练掌握可视化工具 Echarts , Highcharts , D3Js 的使用。</el-col>
                         </el-row>
                     </li>
                     <li>
                         <el-row >
-                            <el-col class="item" :span="24">熟悉functionchart、highchart、artdialog、easyui、Ztree插件的使用，熟悉Smarty模板，了解JSON</el-col>
+                            <el-col class="item" :span="24">熟悉基本的设计模式，了解性能优化解决方案 。熟练掌握 ElementUi , Iview ，Jquery , Bootstrap 插件或模板的使用 。</el-col>
                         </el-row>
                     </li>
                     <li>
-                        <el-row>
-                            <el-col class="item" :span="24">熟悉PHP，JavaScript，熟悉Ajax技术，熟悉MYSQL，HTML，CSS，熟悉Linux基本命令，HTML5，Git，了解ThinkJs，NodeJs</el-col>
+                        <el-row >
+                            <el-col class="item" :span="24">了解PHP , Linux , Mysql 的基本语法与命令。简单了解WebGL</el-col>
                         </el-row>
                     </li>
                 </ul>
@@ -57,13 +57,12 @@
             padding-left:18px;
             &:after{
                 content:'';
-                width:8px;
-                height:8px;
+                width:7px;
+                height:7px;
                 border-radius:50%;
                 border:2px solid #264562;
                 position: absolute;
-                top:9px;
-                // transform: translateY(-50%);
+                top:10px;
                 left:0px;
             }
         }

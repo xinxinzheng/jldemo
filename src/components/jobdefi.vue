@@ -2,15 +2,13 @@
     <jl-block title="求职意向">
         <el-row class="job-defi">
             <el-col :span="18">
-                <p class="my-name">郑新新</p>
-                <p class="my-desc">我一定可以！</p>
                 <el-row >
-                    <el-col class="item" :span="12">意向岗位：Web前端工程</el-col>
+                    <el-col class="item" :span="12">意向岗位：前端工程师</el-col>
                     <el-col class="item" :span="12">意向城市：济南</el-col>
                 </el-row>
                 <el-row>
-                    <el-col class="item" :span="12">期望薪资：10k~15k</el-col>
-                    <el-col class="item" :span="12">邮箱地址：zhengxinxin1990@163.com</el-col>
+                    <el-col class="item" :span="12">期望薪资：10k ~ 15k</el-col>
+                    <el-col class="item" :span="12"></el-col>
                 </el-row>
             </el-col>
             <el-col :span="6">

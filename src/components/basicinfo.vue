@@ -3,7 +3,7 @@
         <el-row class="basic-info">
             <el-col :span="18">
                 <p class="my-name">郑新新</p>
-                <p class="my-desc">我一定可以！</p>
+                <p class="my-desc">如果努力奔跑，只能留在原地，那么我只能拼尽全力向前！</p>
                 <el-row >
                     <el-col class="item" :span="10">出生日期：1990-02-01</el-col>
                     <el-col class="item" :span="14">所在城市：北京</el-col>
