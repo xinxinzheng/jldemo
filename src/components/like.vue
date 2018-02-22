@@ -1,23 +1,20 @@
 <template>
     <jl-block title="兴趣爱好">
         <el-row class="like">
-            <el-col :span="18">
-                <p class="my-name">郑新新</p>
-                <p class="my-desc">我一定可以！</p>
-                <el-row >
-                    <el-col class="item" :span="12">意向岗位：Web前端工程</el-col>
-                    <el-col class="item" :span="12">意向城市：济南</el-col>
-                </el-row>
-                <el-row>
-                    <el-col class="item" :span="12">期望薪资：10k~15k</el-col>
-                    <el-col class="item" :span="12">邮箱地址：zhengxinxin1990@163.com</el-col>
-                </el-row>
-            </el-col>
-            <el-col :span="6">
-                <div class="grid-content ">
-                            
-                </div>
-            </el-col>
+            <el-col :span="24">
+                <ul>
+                    <li>
+                        <el-row >
+                            <el-col class="item" :span="24">喜欢唱歌，喜欢阅读。</el-col>
+                        </el-row>
+                    </li>
+                    <li>
+                        <el-row>
+                            <el-col class="item" :span="24">热爱运动，喜欢游泳，跑步。</el-col>
+                        </el-row>
+                    </li>
+                </ul>
+            </el-col> 
         </el-row>
     </jl-block>
 </template>
@@ -35,6 +32,20 @@
 </script>
 <style scoped lang="scss"> 
     .like{
+        li{
+            position: relative;
+            padding-left:18px;
+            &:after{
+                content:'';
+                width:7px;
+                height:7px;
+                border-radius:50%;
+                border:2px solid #264562;
+                position: absolute;
+                top:10px;
+                left:0px;
+            }
+        }
         .item{
             height:30px;
             line-height:30px;

@@ -7,6 +7,8 @@
             <education></education>
             <work-back></work-back>
             <technology></technology>
+            <award></award>
+            <credential></credential>
             <like></like>
             <my-comment></my-comment>
         </div>
@@ -20,7 +22,9 @@
     import workBack from './components/workback'
     import technology from './components/technology'
     import like from './components/like'
-    import myComment from './components/like'
+    import credential from './components/credential'
+    import award from './components/award'
+    import myComment from './components/mycomment'
     export default {
         name: 'app',
         mounted(){
@@ -34,7 +38,9 @@
            workBack,
            technology,
            like,
-           myComment
+           myComment,
+           credential,
+           award
         }
     }
 </script>

@@ -7,7 +7,7 @@
                     <el-col class="item" :span="12">意向城市：济南</el-col>
                 </el-row>
                 <el-row>
-                    <el-col class="item" :span="12">期望薪资：10k ~ 15k</el-col>
+                    <el-col class="item" :span="12">期望薪资：11k ~ 20k</el-col>
                     <el-col class="item" :span="12"></el-col>
                 </el-row>
             </el-col>

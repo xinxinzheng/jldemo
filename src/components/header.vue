@@ -2,7 +2,7 @@
     <div class="header-container">
         <el-row class="h-top">
             <el-col :span="6">
-                <p class="top-title">哈哈哈哈</p>
+                <p class="top-title">我的简历</p>
             </el-col>
             <el-col :span="18">
                 <div class="flex-column right-t">

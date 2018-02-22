@@ -1,21 +1,16 @@
 <template>
-    <jl-block title="自我评价">
-        <el-row class="my-comment">
+    <jl-block title="获奖记录">
+        <el-row class="award">
             <el-col :span="24">
                 <ul>
                     <li>
                         <el-row >
-                            <el-col class="item" :span="24">学习能力强，具有创新思维，具有较强的逻辑思维能力，有钻研精神，喜欢钻研技术，攻克难题。</el-col>
+                            <el-col class="item" :span="24">2013 ~ 2016 北京邮电大学 三等奖学金；</el-col>
                         </el-row>
                     </li>
                     <li>
                         <el-row>
-                            <el-col class="item" :span="24">做事踏实认真、责任心强，有追求完美的品质，愿意主动改进工作流程，精益求精。</el-col>
-                        </el-row>
-                    </li>
-                    <li>
-                        <el-row>
-                            <el-col class="item" :span="24">较强的沟通能力和团队合作能力。</el-col>
+                            <el-col class="item" :span="24">2009 ~ 2013 山东师范大学 二等奖学金一次 三等奖学金（两次）</el-col>
                         </el-row>
                     </li>
                 </ul>
@@ -36,7 +31,7 @@
     }
 </script>
 <style scoped lang="scss"> 
-    .my-comment{
+    .award{
         li{
             position: relative;
             padding-left:18px;

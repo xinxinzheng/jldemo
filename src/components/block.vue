@@ -34,7 +34,7 @@
                 color:white;
                 height:$block-height;
                 line-height:$block-height;
-                padding-left:40px;
+                padding-left:30px;
                 font-weight:600;
             }
             &:after{
