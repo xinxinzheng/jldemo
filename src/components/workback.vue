@@ -18,21 +18,24 @@
                         <el-row>
                             <el-col :span="24">
                                 <p class="item">项目名称：大数据运营管理平台 (BigManager)</p>
-                                <p>项目简介：</p>
-                                 <br>
+                                <p class="item">项目简介：360 BigManager(BM) 是一个大规模可伸缩的大数据集群管理平台，通过Web可视化界面提供大数据集群便捷部署、智能管理、实时监控功能。</p>
+                                <p class="item">使用技术：AngularJs , Es6 , Glup , Bootstrap , Echarts</p>
+                                <br>
                             </el-col>
                         </el-row>
                         <el-row>
                             <el-col :span="24">
-                                <p class="item">项目名称：大数据运营管理平台 (BigPlorer)</p>
-                                <p>项目简介：</p>
-                                 <br>
+                                <p class="item">项目名称：360安全大数据平台 (BigPlorer)</p>
+                                <p class="item">项目简介：360安全大数据平台BigPlorer产品（360 BigPlorer）是基于360自身多年的大数据运营经验而诞生的大数据可视化分析产品。通过BigPlorer产品能够使得业务部门以简洁的方式实现大数据分析、大数据挖掘等方面工作</p>
+                                <p class="item">使用技术：AngularJs , Es6 , Grunt , Bootstrap , Highcharts</p>
+                                <br>
                             </el-col>
                         </el-row>
                         <el-row>
                             <el-col :span="24">
-                                <p class="item">项目名称：四川广电项目 & 大屏<p>
-                                <p>项目简介：</p>
+                                <p class="item">项目名称：广电大数据分析系统 & 大屏<p>
+                                <p class="item">项目简介：四川广电大数据分析系统主要是通过大数据服务在底层进行数据收集与分析，并在Web页面对栏目收视率，用户活跃度等相关的数据信息进行适当的可视化。</p>
+                                <p class="item">使用技术：Vue , Es6 , webpack , ElementUi , Echarts</p>
                                  <br>
                             </el-col>
                         </el-row>
