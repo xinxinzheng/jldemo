@@ -13,9 +13,9 @@
                     <el-col class="item" :span="14">邮箱地址：zhengxinxin1990@163.com</el-col>
                 </el-row>
             </el-col>
-            <el-col :span="6">
-                <div class="grid-content ">
-                            
+            <el-col :span="6" >
+                <div class="item-img">
+                    <img src="../assets/images/zhengxinxin.jpg" />  
                 </div>
             </el-col>
         </el-row>
@@ -38,6 +38,16 @@
         .item{
             height:30px;
             line-height:30px;
+        }
+        .item-img {
+            position: relative;
+            height:100%;
+            img{
+                position: absolute;
+                height:170px;
+                top:-10px;
+                right:0px;
+            }
         }
         .my-name{
             font-size:25px;

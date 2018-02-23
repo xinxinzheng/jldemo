@@ -42,6 +42,20 @@
                     </li>
                     <li>
                         <el-row>
+                            <el-col class="item" :span="6">2015.7 – 2016.1</el-col>
+                            <el-col class="item" :span="12">北京奇虎科技有限公司</el-col>                        
+                            <el-col class="item" :span="6">前端研发实习生</el-col>
+                        </el-row>
+                         <el-row>
+                            <el-col :span="24">
+                                <p class="item">云图</p>
+                                <p class="item">项目简介：云图，是大数据（Hadoop）前端管理平台。云图功能主要分为产品服务和管理服务两大系列，产品服务包含Hive/MapReduce/Hbase/HDFS，管理服务包括权限管理和Storm管理。</p>
+                                 <br>
+                            </el-col>
+                        </el-row>
+                    </li>
+                    <li>
+                        <el-row>
                             <el-col class="item" :span="6">2014.7 – 2015.6</el-col>
                             <el-col class="item" :span="12">百度时代网络技术（北京）有限公司</el-col>                        
                             <el-col class="item" :span="6">研发实习生</el-col>

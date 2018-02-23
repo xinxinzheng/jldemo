@@ -46,6 +46,7 @@
 </script>
 <style lang="scss" scoped>
     #app {
+        
         width:900px;
         // height: 100%;
         background: white;
