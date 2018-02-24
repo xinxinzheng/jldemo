@@ -6,10 +6,10 @@
                     <el-col class="item" :span="12">意向岗位：前端工程师</el-col>
                     <el-col class="item" :span="12">意向城市：济南</el-col>
                 </el-row>
-                <el-row>
-                    <el-col class="item" :span="12">k</el-col>
+                <!-- <el-row>
                     <el-col class="item" :span="12"></el-col>
-                </el-row>
+                    <el-col class="item" :span="12"></el-col>
+                </el-row> -->
             </el-col>
             <el-col :span="6">
                 <div class="grid-content ">
