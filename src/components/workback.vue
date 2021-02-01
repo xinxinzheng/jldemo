@@ -81,7 +81,7 @@
                                 <p class="item">参与任务：</p>
                                 <p class="item">（1）搭建并完成项目的研发部署工作</p>
                                 <p class="item">（2）完成了广电家庭大数据监控大屏, 使用JS,CSS完成了大屏资源存储柱状组件的开发</p>
-                                <p class="item">（3）使用d3 + echarts 优化了知识图谱5000+节点渲染卡顿问题</p>
+                                <p class="item">（3）使用d3 + echarts 优化了知识图谱2000+节点渲染卡顿问题</p>
                                 <br>
                             </el-col>
                         </el-row>
