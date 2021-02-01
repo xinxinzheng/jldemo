@@ -6,10 +6,10 @@
                 <p class="my-desc">如果努力奔跑，只能留在原地，那么我只能拼尽全力向前！</p>
                 <el-row >
                     <el-col class="item" :span="10">出生日期：1990-02-01</el-col>
-                    <el-col class="item" :span="14">所在城市：北京</el-col>
+                    <el-col class="item" :span="14">所在城市：济南</el-col>
                 </el-row>
                 <el-row>
-                    <el-col class="item" :span="10">手机号码：155-1016-7150</el-col>
+                    <el-col class="item" :span="10">手机号码：155-6262-3661</el-col>
                     <el-col class="item" :span="14">邮箱地址：zhengxinxin1990@163.com</el-col>
                 </el-row>
             </el-col>

@@ -3,9 +3,9 @@
         <jl-header></jl-header>
         <div class="content">
             <basic-info></basic-info>
-            <technology></technology>
             <!-- <job-defi></job-defi> -->
             <education></education>
+            <technology></technology>
             <work-back></work-back>
             <!-- <award></award> -->
             <!-- <credential></credential> -->
