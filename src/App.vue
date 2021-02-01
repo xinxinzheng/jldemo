@@ -3,12 +3,12 @@
         <jl-header></jl-header>
         <div class="content">
             <basic-info></basic-info>
-            <job-defi></job-defi>
+            <technology></technology>
+            <!-- <job-defi></job-defi> -->
             <education></education>
             <work-back></work-back>
-            <technology></technology>
-            <award></award>
-            <credential></credential>
+            <!-- <award></award> -->
+            <!-- <credential></credential> -->
             <like></like>
             <my-comment></my-comment>
         </div>

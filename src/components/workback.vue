@@ -3,13 +3,62 @@
         <el-row class="work-back">
             <el-col :span="24">
                 <ul>
+                     <li>
+                        <el-row >
+                            <el-col class="item" :span="6">
+                                2020.8 ～ 至今
+                            </el-col>
+                            <el-col class="item" :span="12">
+                                北京辰森科技
+                            </el-col>
+                            <el-col class="item" :span="6">
+                                前端研发工程师
+                            </el-col>
+                        </el-row>
+                        <el-row>
+                            <el-col :span="24">
+                                <p class="item">项目名称：供应链（SCM）</p>
+                                <p class="item">使用技术：React , Webpack, Antd, dva, typescript, 微应用</p>
+                                <p class="item">参与任务：</p>
+                                <p class="item">（1）高质量完成迭代需求开发并顺利上线，fix了各子应用间module全局变量相互覆盖问题 </p>
+                                <p class="item">（2）通过封装Filter Bar组件熟悉了React hooks的使用。</p>
+                                <p class="item">（3）通过开发智能秤，APP，小程序，熟悉了移动端的开发。</p>
+                                <p class="item">（4）Quick BI 调研，在quick bi 单据列表中跳转回供应链时，通过集中跳转到统一页面进行分发解决了quick bi自身跳转到固定链接的局限（虽最终未使用quickBi）。</p>
+                                <p class="item">（5）AEM 调研。</p>
+                                <br>
+                            </el-col>
+                        </el-row>
+                    </li>
                     <li>
                         <el-row >
                             <el-col class="item" :span="6">
-                                2016.4 ～ 至今
+                                2018.5 ～ 2020.7
                             </el-col>
                             <el-col class="item" :span="12">
-                                北京奇安信科技有限公司（360企业安全）
+                                亿帆环球科技
+                            </el-col>
+                            <el-col class="item" :span="6">
+                                前端研发工程师
+                            </el-col>
+                        </el-row>
+                        <el-row>
+                            <el-col :span="24">
+                                <p class="item">项目名称：Colleague Advantage（CA）- 酒店前台管理系统</p>
+                                <p class="item">使用技术：Javascript , NodeJs, Express, Dust, RequireJs, Jquery, Bootstrap</p>
+                                <p class="item">参与任务：</p>
+                                <p class="item">（1）高质量完成迭代开发需求并顺利上线，利用requestIdleCallback解决了RoomSwap Modal关闭导致的页面冻结问题</p>
+                                <p class="item">（2）从sql小白到能够多次协助后端通过分析log与存储过程,定位线上问题，例如通过分析Splunk log缩小问题定位范围，通过分析存储过程发现业务逻辑bug等</p>
+                                <br>
+                            </el-col>
+                        </el-row>
+                    </li>
+                    <li>
+                        <el-row >
+                            <el-col class="item" :span="6">
+                                2016.4 ～ 2018.5
+                            </el-col>
+                            <el-col class="item" :span="12">
+                                360企业安全
                             </el-col>
                             <el-col class="item" :span="6">
                                 前端研发工程师
@@ -18,29 +67,26 @@
                         <el-row>
                             <el-col :span="24">
                                 <p class="item">项目名称：大数据运营管理平台 (BigManager)</p>
-                                <p class="item">项目简介：360 BigManager(BM) 是一个大规模可伸缩的大数据集群管理平台，通过Web可视化界面提供大数据集群便捷部署、智能管理、实时监控功能。</p>
                                 <p class="item">使用技术：AngularJs , Es6 , Glup , Bootstrap , Echarts</p>
+                                <p class="item">参与任务：</p>
+                                <p class="item">（1）使用glup独立搭建并完成项目的研发部署工作</p>
+                                <p class="item">（2）了解了大数据相关的知识，开阔了眼界。</p>
                                 <br>
                             </el-col>
                         </el-row>
                         <el-row>
                             <el-col :span="24">
-                                <p class="item">项目名称：360安全大数据平台 (BigPlorer)</p>
-                                <p class="item">项目简介：360安全大数据平台BigPlorer产品（360 BigPlorer）是基于360自身多年的大数据运营经验而诞生的大数据可视化分析产品。通过BigPlorer产品能够使得业务部门以简洁的方式实现大数据分析、大数据挖掘等方面工作</p>
-                                <p class="item">使用技术：AngularJs , Es6 , Grunt , Bootstrap , Highcharts</p>
+                                <p class="item">项目名称：广电大数据分析系统 & 大屏 & 知识图谱</p>
+                                <p class="item">使用技术：Vue, Es6 , Webpack , ElementUi , Echarts，D3</p>
+                                <p class="item">参与任务：</p>
+                                <p class="item">（1）搭建并完成项目的研发部署工作</p>
+                                <p class="item">（2）完成了广电家庭大数据监控大屏, 使用JS,CSS完成了大屏资源存储柱状组件的开发</p>
+                                <p class="item">（3）使用d3 + echarts 优化了知识图谱5000+节点渲染卡顿问题</p>
                                 <br>
-                            </el-col>
-                        </el-row>
-                        <el-row>
-                            <el-col :span="24">
-                                <p class="item">项目名称：广电大数据分析系统 & 大屏<p>
-                                <p class="item">项目简介：四川广电大数据分析系统主要是通过大数据服务在底层进行数据收集与分析，并在Web页面对栏目收视率，用户活跃度等相关的数据信息进行适当的可视化。</p>
-                                <p class="item">使用技术：Vue , Es6 , webpack , ElementUi , Echarts</p>
-                                 <br>
                             </el-col>
                         </el-row>
                     </li>
-                    <li>
+                    <!-- <li>
                         <el-row>
                             <el-col class="item" :span="6">2015.7 – 2016.1</el-col>
                             <el-col class="item" :span="12">北京奇虎科技有限公司</el-col>                        
@@ -53,8 +99,8 @@
                                  <br>
                             </el-col>
                         </el-row>
-                    </li>
-                    <li>
+                    </li> -->
+                    <!-- <li>
                         <el-row>
                             <el-col class="item" :span="6">2014.7 – 2015.6</el-col>
                             <el-col class="item" :span="12">百度时代网络技术（北京）有限公司</el-col>                        
@@ -95,7 +141,7 @@
                                  <br>
                             </el-col>
                         </el-row>
-                    </li>
+                    </li> -->
                 </ul>
             </el-col> 
         </el-row>

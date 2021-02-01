@@ -2,7 +2,7 @@
     <jl-block title="技能特长">
         <el-row class="tech">
             <el-col :span="24">
-                <ul>
+                <!-- <ul>
                     <li>
                         <el-row >
                             <el-col class="item" :span="24">英语六级（CET6）, 能够熟练阅读英文技术文档。</el-col>
@@ -31,6 +31,33 @@
                     <li>
                         <el-row >
                             <el-col class="item" :span="24">了解PHP , Linux , Mysql 的基本语法与命令。简单了解WebGL</el-col>
+                        </el-row>
+                    </li>
+                </ul> -->
+                <ul>
+                    <li>
+                        <el-row >
+                            <el-col class="item" :span="24">基础技术：熟练掌握Javascript, Html5，Css。</el-col>
+                        </el-row>
+                    </li>
+                    <li>
+                        <el-row>
+                            <el-col class="item" :span="24">框架：熟练掌握 Vue , React, Express，Wepy 等框架的使用 。</el-col>
+                        </el-row>
+                    </li>
+                    <li>
+                        <el-row >
+                            <el-col class="item" :span="24">工具：熟练掌握Webpack, Node的使用。</el-col>
+                        </el-row>
+                    </li>
+                    <li>
+                        <el-row>
+                            <el-col class="item" :span="24">可视化：熟练掌握Echarts , Highcharts , D3Js，了解SVG , Canvas, WebGL，Threejs。</el-col>
+                        </el-row>
+                    </li>
+                    <li>
+                        <el-row >
+                            <el-col class="item" :span="24">其他：熟悉PHP , Linux , Mysql 的基本语法与命令以及Nginx，Opera, Oracle Report, Splunk，StoryBook。</el-col>
                         </el-row>
                     </li>
                 </ul>

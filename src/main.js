@@ -16,29 +16,6 @@ import 'element-ui/lib/theme-chalk/index.css'
 
 Vue.use(element)
 
-
-/**axios**/
-import axios from 'axios'
-Vue.prototype.$http = axios;
-axios.interceptors.response.use(function(res) {
-    if (res.data.errorCode === 4006) {
-        element.$message.error('用户未登录');
-        //element.$router.push('/login');
-        return [];
-    } else {
-        return res;
-    }
-});
-
-/**echarts**/
-Vue.prototype.$echarts = require('echarts4/echarts');
-/* require('echarts-liquidfill'); */
-import HighCharts from 'highcharts'
-require('highcharts/highcharts-3d')(HighCharts)
-Vue.prototype.$highcharts = HighCharts;
-
-// import HighCharts3d from 'highcharts-3d'
-// Vue.prototype.$highcharts3d = HighCharts3d;
 /*lodash**/
 import _ from 'lodash'
 Vue.prototype.$_ = _;
