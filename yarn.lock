@@ -2525,29 +2525,6 @@ ecc-jsbn@~0.1.1:
     jsbn "~0.1.0"
     safer-buffer "^2.1.0"
 
-echarts-liquidfill@^1.1.1:
-  version "1.1.1"
-  resolved "http://npm.choicesaas.cn/echarts-liquidfill/-/echarts-liquidfill-1.1.1.tgz#2c8bb21ad8eeadde080f802d6bd4db5d21a5ed7d"
-  integrity sha1-LIuyGtjurd4ID4Ata9TbXSGl7X0=
-  dependencies:
-    echarts ">=3.8.2"
-    zrender ">=3.7.2"
-
-echarts@>=3.8.2:
-  version "5.0.1"
-  resolved "http://npm.choicesaas.cn/echarts/-/echarts-5.0.1.tgz#b999ff6f515b1aa851ed09576eaf89686b57ce97"
-  integrity sha1-uZn/b1FbGqhR7QlXbq+JaGtXzpc=
-  dependencies:
-    tslib "2.0.3"
-    zrender "5.0.3"
-
-echarts@^3.8.5:
-  version "3.8.5"
-  resolved "http://npm.choicesaas.cn/echarts/-/echarts-3.8.5.tgz#58e4a51d2743c6fb75257b0dc0a9cf9f5378ac0e"
-  integrity sha512-E+nnROMfCeiLeoT/fZyX8SE8mKzwkTjyemyoBF543oqjRtjTSKQAVDEihMXy4oC6pJS0tYGdMqCA2ATk8onyRg==
-  dependencies:
-    zrender "3.7.4"
-
 ee-first@1.1.1:
   version "1.1.1"
   resolved "http://npm.choicesaas.cn/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
@@ -3620,16 +3597,6 @@ hex-color-regex@^1.1.0:
   version "1.1.0"
   resolved "http://npm.choicesaas.cn/hex-color-regex/-/hex-color-regex-1.1.0.tgz#4c06fccb4602fe2602b3c93df82d7e7dbf1a8a8e"
   integrity sha512-l9sfDFsuqtOqKDsQdqrMRk0U85RZc0RtOR9yPI7mRVOa4FsR/BVnZ0shmQRM96Ji99kYZP/7hn1cedc1+ApsTQ==
-
-highcharts-3d@^0.1.2:
-  version "0.1.7"
-  resolved "http://npm.choicesaas.cn/highcharts-3d/-/highcharts-3d-0.1.7.tgz#b51a8f870d907b40635ae39eb73d45edb90a91fb"
-  integrity sha1-tRqPhw2Qe0BjWuOetz1F7bkKkfs=
-
-highcharts@^6.0.4:
-  version "6.2.0"
-  resolved "http://npm.choicesaas.cn/highcharts/-/highcharts-6.2.0.tgz#2a6d04652eb43c66f462ca7e2d2808f1f2782b61"
-  integrity sha512-A4E89MA+kto8giic7zyLU6ZxfXnVeCUlKOyzFsah3+n4BROx4bgonl92KIBtwLud/mIWir8ahqhuhe2by9LakQ==
 
 hmac-drbg@^1.0.0:
   version "1.0.1"
@@ -7244,10 +7211,10 @@ shebang-regex@^1.0.0:
   resolved "http://npm.choicesaas.cn/shebang-regex/-/shebang-regex-1.0.0.tgz#da42f49740c0b42db2ca9728571cb190c98efea3"
   integrity sha1-2kL0l0DAtC2yypcoVxyxkMmO/qM=
 
-shelljs@^0.7.6:
-  version "0.7.8"
-  resolved "http://npm.choicesaas.cn/shelljs/-/shelljs-0.7.8.tgz#decbcf874b0d1e5fb72e14b164a9683048e9acb3"
-  integrity sha1-3svPh0sNHl+3LhSxZKloMEjprLM=
+shelljs@^0.8.5:
+  version "0.8.5"
+  resolved "https://registry.yarnpkg.com/shelljs/-/shelljs-0.8.5.tgz#de055408d8361bed66c669d2f000538ced8ee20c"
+  integrity sha512-TiwcRcrkhHvbrZbnRcFYMLl30Dfov3HKqzp5tO5b4pt6G/SezKcYhmDg15zXVBswHmctSAQKznqNW2LO5tTDow==
   dependencies:
     glob "^7.0.0"
     interpret "^1.0.0"
@@ -7891,11 +7858,6 @@ tryer@^1.0.0:
   version "1.0.1"
   resolved "http://npm.choicesaas.cn/tryer/-/tryer-1.0.1.tgz#f2c85406800b9b0f74c9f7465b81eaad241252f8"
   integrity sha512-c3zayb8/kWWpycWYg87P71E1S1ZL6b6IJxfb5fvsUgsf0S2MVGaDhDXXjDMpdCpfWXqptc+4mXwmiy1ypXqRAA==
-
-tslib@2.0.3:
-  version "2.0.3"
-  resolved "http://npm.choicesaas.cn/tslib/-/tslib-2.0.3.tgz#8e0741ac45fc0c226e58a17bfc3e64b9bc6ca61c"
-  integrity sha1-jgdBrEX8DCJuWKF7/D5kubxsphw=
 
 tslib@^2.0.1:
   version "2.1.0"
@@ -8585,15 +8547,3 @@ yauzl@^2.10.0:
   dependencies:
     buffer-crc32 "~0.2.3"
     fd-slicer "~1.1.0"
-
-zrender@3.7.4:
-  version "3.7.4"
-  resolved "http://npm.choicesaas.cn/zrender/-/zrender-3.7.4.tgz#f847d53948481ef6d42906d1ea9aeec7acbefdf2"
-  integrity sha512-5Nz7+L1wIoL0+Pp/iOP56jD6eD017qC9VRSgUBheXBiAHgOBJZ4uh4/g6e83acIwa8RKSyZf/FlceKu5ntUuxQ==
-
-zrender@5.0.3, zrender@>=3.7.2:
-  version "5.0.3"
-  resolved "http://npm.choicesaas.cn/zrender/-/zrender-5.0.3.tgz#5e04a55d36455067e4536c8ce9c25093f50f6b68"
-  integrity sha1-XgSlXTZFUGfkU2yM6cJQk/UPa2g=
-  dependencies:
-    tslib "2.0.3"
